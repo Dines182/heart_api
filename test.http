@@ -1,0 +1,8 @@
+POST http://127.0.0.1:8000/predict
+Content-Type: application/json
+
+{
+  "age": 57, "sex": 1, "cp": 0, "trestbps": 130, "chol": 236,
+  "fbs": 0, "restecg": 1, "thalach": 174, "exang": 0,
+  "oldpeak": 0.2, "slope": 1, "ca": 0, "thal": 2
+}
